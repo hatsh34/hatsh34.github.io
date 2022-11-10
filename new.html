@@ -1,0 +1,117 @@
+
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+      <script>
+        $(function(){
+            $('#header').load('header.html');
+        });
+      </script>
+
+      <script>
+        $(function(){
+            $('#footer').load('footer.html');
+        });
+      </script>
+      <title>Hello harsh</title>
+      <img src="https://www.bennett.edu.in/wp-content/uploads/2019/10/Bennett-University-logo1-.png" width="300" height="100"></img>
+
+    </head>
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: beige;
+        }
+        
+        .navbar1 {
+          overflow: hidden;
+          background-color: #333;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+        }
+
+        .navbar1 a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        
+        </style>
+
+    <body>
+
+    <div id="header"></div>
+    
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Menu</a>
+        </div>
+
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Home
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Mission</a></li>
+                    <li><a href="#">TEAm</a></li>
+                  </ul>
+          </li>
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Activities
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="">Sports</a></li>
+                    <li><a href="#">Academics</a></li>
+                  </ul>
+          </li>
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Facilities
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Sports complex</a></li>
+                    <li><a href="#">Library</a></li>
+                    <li><a href="#">Hostels</a></li>
+                    <li><a href="#">Cafeteria</a></li>
+                  </ul>
+          </li>
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Clubs
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Fullstack</a></li>
+                    <li><a href="#">Dev-OPS</a></li>
+                    <li><a href="#">AI</a></li>
+                  </ul>
+          </li>
+
+        <button class="btn btn-danger navbar-btn">Contact us</button>
+      </div>
+    </nav>
+      
+    <div class="container">
+        <h4>Welcome to Bennett University</h4>
+        <p>bent</p>
+    </div>
+
+    <div id="footer"></div>
+    </body>
+    </html>
+    
+</html>
